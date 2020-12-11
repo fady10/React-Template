@@ -37,8 +37,3 @@ export default App;
 3- run ```npm install```
 
 4- run ```npm start```
-
-<h2> Axios || </h2>
-<h3>Usage ||</h3>
-```import axios from './api/axios'```
-change the base url in ./api/axios
