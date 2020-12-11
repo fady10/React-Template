@@ -5,19 +5,27 @@ Adding necessary components to start your project with
 
 This template comes with routing in the box. Native routing components without any packages. 
 
-<h3>Usages ||</h3> 
+<h3>Routing Usages ||</h3> 
 
 ```
-import Link from 'routing/link'; 
-
-//Showing the route
-<Route path='/path-to'>
-  <div> Component </div>
-</Route>
-
-//Link to the Route 
-
-<Link href='/path-to'>
-   My Link 
-</Link>
+import Link from "./routing/Link";
+import Route from "./routing/Route";
+import React from "react";
+const App = () => {
+  return (
+    <React.Fragment>
+      <Route path="/path-to">
+        <div> Component </div>
+      </Route>
+      <Route path="/">
+        <div> Hi </div>
+      </Route>
+      <div className='links'>
+        <Link href="/path-to">Component </Link> - 
+        <Link href="/">Homepage </Link>
+      </div>
+    </React.Fragment>
+  );
+};
+export default App;
 ```
