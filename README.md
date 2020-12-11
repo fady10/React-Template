@@ -30,7 +30,7 @@ const App = () => {
 export default App;
 ```
 <h2>Using the Template</h2> 
-1- ``` git clone https://github.com/fady10/react-template.git ```
+1- clone it 
 
 2- change the directory name to whatever you want 
 
