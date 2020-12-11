@@ -29,3 +29,14 @@ const App = () => {
 };
 export default App;
 ```
+<h2>Using the Template</h2> 
+1-
+```
+git clone https://github.com/fady10/react-template.git
+```
+
+2- change the directory name to whatever you want 
+
+3- run ```npm install```
+
+4- run ```npm start```
